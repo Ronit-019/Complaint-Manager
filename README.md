@@ -1,6 +1,4 @@
-Here's a sample `README.md` file for your **Complaint Manager** website using Flask and JSON-based storage:
 
----
 
 ```markdown
 # 🛠️ Complaint Manager Web App
@@ -130,7 +128,3 @@ This project is open-source and free to use for educational or non-commercial pu
 
 Thanks to Flask and Python's simplicity for enabling quick prototyping and development!
 ```
-
----
-
-Would you like me to generate this file and send it to you as a downloadable `.md`?
