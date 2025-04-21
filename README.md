@@ -1,13 +1,13 @@
 
 
 ```markdown
-# 🛠️ Complaint Manager Web App
+🛠️ Complaint Manager Web App
 
 A simple Flask-based web application that allows users to register, log in, and submit complaints with optional images. Complaints are stored in JSON files, making it lightweight and easy to run without needing a database server.
 
 ---
 
-## 🌐 Features
+🌐 Features
 
 - User registration and login
 - Complaint submission with:
@@ -22,7 +22,7 @@ A simple Flask-based web application that allows users to register, log in, and 
 
 ---
 
-## 🧰 Tech Stack
+🧰 Tech Stack
 
 - Python 3.x
 - Flask
@@ -32,7 +32,7 @@ A simple Flask-based web application that allows users to register, log in, and 
 
 ---
 
-## 📁 Folder Structure
+📁 Folder Structure
 
 ```
 Complaint-Manager/
@@ -49,36 +49,36 @@ Complaint-Manager/
 
 ---
 
-## ⚙️ Setup Instructions
+⚙️ Setup Instructions
 
-1. **Clone the repo**
+1. Clone the repo
 
 ```bash
 git clone https://github.com/yourusername/complaint-manager.git
 cd complaint-manager
 ```
 
-2. **Create a virtual environment and activate it**
+2. Create a virtual environment and activate it
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate     # On Windows: .venv\Scripts\activate
 ```
 
-3. **Install dependencies**
+3. Install dependencies
 
 ```bash
 pip install flask python-dotenv
 ```
 
-4. **Create `.env` file**
+4. Create `.env` file
 
 ```
 
 > 💡 Make sure "2-Step Verification" is enabled in your Google account to generate an App Password.  
 > Guide: https://support.google.com/accounts/answer/185833?hl=en
 
-5. **Create `users.json` and `complaints.json`**
+5. Create `users.json` and `complaints.json`
 
 ```json
 // users.json
@@ -90,7 +90,7 @@ pip install flask python-dotenv
 []
 ```
 
-6. **Run the App**
+6. Run the App
 
 ```bash
 python app.py
@@ -100,15 +100,7 @@ Visit `http://127.0.0.1:5000` in your browser.
 
 ---
 
-## ✉️ Email Setup Tips
-
-- SMTP Server: `smtp.gmail.com`
-- Port: `587`
-- Requires Gmail **App Password**, not your normal password.
-
----
-
-## 🚀 Future Improvements
+🚀 Future Improvements
 
 - Admin dashboard for complaint management
 - Search and filter complaints
@@ -118,13 +110,12 @@ Visit `http://127.0.0.1:5000` in your browser.
 
 ---
 
-## 📝 License
+📝 License
 
 This project is open-source and free to use for educational or non-commercial purposes.
 
 ---
-
-## 🙌 Acknowledgements
+🙌 Acknowledgements
 
 Thanks to Flask and Python's simplicity for enabling quick prototyping and development!
 ```
